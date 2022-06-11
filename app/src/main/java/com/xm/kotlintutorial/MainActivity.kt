@@ -1,17 +1,13 @@
 package com.xm.kotlintutorial
 
-import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.LayoutInflater
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.database.*
-import com.google.firebase.ktx.Firebase
-import com.xm.kotlintutorial.databinding.ActivityMainBinding
+import com.xm.kotlintutorial.data.User
 
 class MainActivity : AppCompatActivity() {
 /*

@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/kotlin/kotlin_tutorial/app/src/main/res/layout/activity_find.xml" value="0.2625" />
         <entry key="..\:/kotlin/kotlin_tutorial/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/kotlin/kotlin_tutorial/app/src/main/res/layout/activity_main2.xml" value="0.14719202898550723" />
+        <entry key="..\:/kotlin/kotlin_tutorial/app/src/main/res/layout/activity_splash.xml" value="0.17798913043478262" />
       </map>
     </option>
   </component>
