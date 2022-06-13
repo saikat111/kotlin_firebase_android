@@ -13,12 +13,18 @@ import com.xm.kotlintutorial.data.User
 class MainActivity2 : AppCompatActivity() {
     private lateinit var finddata:Button
     private lateinit var addData:Button
+    private lateinit var all:Button
     private lateinit var database : DatabaseReference
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
         finddata = findViewById(R.id.finddata)
+        all = findViewById(R.id.all)
         addData = findViewById(R.id.adddata)
+        all.setOnClickListener {
+            startActivity(Intent(this,AllStudentActivity::class.java))
+
+        }
         addData.setOnClickListener {
             val builder = AlertDialog.Builder(this)
             val inflater = layoutInflater

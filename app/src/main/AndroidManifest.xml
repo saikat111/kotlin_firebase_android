@@ -19,7 +19,7 @@
             android:name=".FindActivity"
             android:exported="false" />
         <activity
-            android:name=".AddDataActivity"
+            android:name=".AllStudentActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
