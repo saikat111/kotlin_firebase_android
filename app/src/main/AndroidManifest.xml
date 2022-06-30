@@ -16,6 +16,9 @@
         android:theme="@style/Theme.KotlinTutorial"
         tools:targetApi="31">
         <activity
+            android:name=".TryActivity"
+            android:exported="false" />
+        <activity
             android:name=".FindActivity"
             android:exported="false" />
         <activity
